@@ -1,0 +1,24 @@
+{
+  "private": false,
+  "name": "q-cascader",
+  "version": "0.0.1",
+  "description": "A cascader selector that utilizes quasar select components",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve ./src/q-cascader.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "Daniel Vining",
+  "license": "ISC",
+  "dependencies": {
+    "vue-loader": "^15.9.3"
+  },
+  "devDependencies": {
+    "bili": "^5.0.5",
+    "rollup-plugin-vue": "^6.0.0-beta.10",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
